@@ -1,0 +1,67 @@
+#include <stdio.h>
+struct student
+{
+    char name[30];
+    int id;
+    int roll_number;
+    int subject,tam,eng,maths,social,science;
+}stud1,stud2,stud3;
+void main()
+{
+   printf("Enter student1 name=");
+   scanf("%s",&stud1.name);
+   printf("student id=");
+   scanf("%d",&stud1.id);
+   printf("roll number=");
+   scanf("%d",&stud1.id);
+   printf(".......MARKS OBTAINED.......\n");
+   printf("TAMIL =");
+   scanf("%d",&stud1.tam);
+   printf("ENGLISH=");
+   scanf("%d",&stud1.eng);
+   printf("MATHS=");
+   scanf("%d",&stud1.maths);
+   printf("SCIENCE=");
+   scanf("%d",&stud1.science);
+   printf("SOCIAL=");
+   scanf("%d",&stud1.social);
+    printf("\n \n ");
+   
+   printf("Enter student2 name=");
+   scanf("%s",&stud2.name);
+   printf("student id=");
+   scanf("%d",&stud2.id);
+   printf("roll number=");
+   scanf("%d",&stud2.id);
+   printf(".......MARKS OBTAINED.......\n");
+   printf("TAMIL =");
+   scanf("%d",&stud2.tam);
+   printf("ENGLISH=");
+   scanf("%d",&stud2.eng);
+   printf("MATHS=");
+   scanf("%d",&stud2.maths);
+   printf("SCIENCE=");
+   scanf("%d",&stud2.science);
+   printf("SOCIAL=");
+   scanf("%d",&stud2.social);
+   printf("\n \n ");
+   
+   printf("Enter student3 name=");
+   scanf("%s",&stud3.name);
+   printf("student id=");
+   scanf("%d",&stud3.id);
+   printf("roll number=");
+   scanf("%d",&stud3.id);
+   printf(".......MARKS OBTAINED.......\n");
+   printf("TAMIL =");
+   scanf("%d",&stud3.tam);
+   printf("ENGLISH=");
+   scanf("%d",&stud3.eng);
+   printf("MATHS=");
+   scanf("%d",&stud3.maths);
+   printf("SCIENCE=");
+   scanf("%d",&stud3.science);
+   printf("SOCIAL=");
+   scanf("%d",&stud3.social);
+}
+
